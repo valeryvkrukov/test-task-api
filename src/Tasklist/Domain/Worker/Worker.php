@@ -7,6 +7,8 @@ use TodoList\Api\Tasklist\Application\Task\TaskAssembler;
 use TodoList\Api\Tasklist\Domain\Task\Task;
 use TodoList\Api\Tasklist\Domain\Task\TaskCollection;
 use TodoList\Api\Shared\Domain\Worker\WorkerId;
+use TodoList\Api\Tasklist\Domain\Worker\ValueObject\WorkerName;
+use TodoList\Api\Tasklist\Domain\Worker\ValueObject\WorkerAddingDate;
 
 class Worker implements \Stringable
 {
